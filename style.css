@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Barlow;
+}
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+    height: 80px;
+    z-index: 100;
+    position: fixed;
+    background-color: white;
+}
+header .logo img {
+    width: 30%;
+    height: auto;
+    cursor: pointer;
+}
+nav {
+    width: 65%;
+    margin: 0 auto;
+    white-space: nowrap;
+}
+nav li {
+    display: inline-block;
+    list-style: none;
+    padding: 0px 20px;
+    font-size: 20px;
+    transition: 0.2s ease-in-out;
+}
+nav li a {
+    text-decoration: none;
+    color: #767676;
+    font-weight: 400;
+    font-family: Barlow,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+button {
+    border-radius: 100px;
+    padding: 10px 20px;
+    background-color: #04ddb2;
+    border: 1px solid #04ddb2;
+    transition: 0.2s ease-in-out;
+}
+button a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    transition: 0.2s ease-in-out;
+}
+h1 {
+    display: block;
+    width: 450px;
+    font-family: Barlow;
+    font-weight: 900;
+    font-size: 70px;
+    color: #333;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    text-align: center;
+    cursor: default;
+} 
+h1 strong {
+    color: #04ddb2;;
+}
+.motto p {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    width: 500px;
+    font-size: 25px;
+    font-family: Barlow;
+    font-weight: 100;
+    cursor: default;
+}
+.tour {
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+.vid img {
+    display: block;
+    width: 70%;
+    border-radius: 50px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    transition: 0.5s ease-in-out;
+}
+div .download {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+.vid img:hover {
+    transform: scale(1.01);
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+    box-shadow:  1px 20px 50px rgba(0, 0, 0, 0.102);
+}
+nav ul li:hover {
+  transform: scale(1.05);
+  transition: 0.2s ease-in-out;
+}
+button:hover {
+    transform: scale(1.06);
+    transition: 0.2s ease-in-out;
+}
+div .download:hover {
+    box-shadow:  1px 20px 50px rgba(0, 0, 0, 0.102);
+}
+nav ul li a:hover {
+    color: rgb(56, 56, 56);
+}
+footer {
+    display: flex;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    border-top: 0.5px solid rgba(0, 0, 0, 0.102);
+    margin: 0 auto;
+    padding-bottom: 50px;
+    min-height: 0;
+    cursor: default;
+}
+.container {
+    display: flex;
+    align-content: center;
+}
+.container div {
+    line-height: 60px;
+}
+.container .one img {
+    width: 30%;
+    cursor: pointer;
+}
+.container .one p {
+    margin-left: 20px;
+}
+.two, .three, .four {
+    margin-left: 50px;
+    margin-top: 10px;
+    
+}
+h4 {
+    width: 150px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    cursor: default;
+}
+footer .icons .icon {
+    display: block;
+    background-color: #04ddb2;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 50px;
+    cursor: pointer;
+    position: relative;
+    right: 515px;
+    transition: 0.2s ease-in-out;
+}
+footer .icons .icon:hover {
+    transform: scale(1.1);
+    transition: 0.2s ease-in-out;
+}
+
